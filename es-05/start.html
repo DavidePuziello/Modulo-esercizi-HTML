@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Lezione HTML</title>
+	<style>
+		label {
+			display: block
+		}
+	</style>
+
+</head>
+
+</form>
+
+<body>
+
+	<form action="link di destinazione" method="post">
+		<h1>Registrati</h1>
+
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email">
+
+		<label for="fname">Nome e Cognome</label>
+		<input type="text" id="fname" name="fname">
+
+		<label for="bday">Data di Nascita</label>
+		<input type="date" name="bday" id="bday">
+
+		<label for="phone">Numero di telefono</label>
+		<input type="tel" name="phone" id="phone">
+
+		<h2>Seleziona il tuo abbonamento</h2>
+
+		<label for="subscription">Gratuito</label>
+		<input type="radio" name="subscription" id="subscription" checked>
+		<label for="subscription">Essential 59,99€</label>
+		<input type="radio" name="subscription" id="subscription">
+		<label for="subscription">Extra 99,99€</label>
+		<input type="radio" name="subscription" id="subscription">
+		<label for="subscription">Premium 119,99€</label>
+		<input type="radio" name="subscription" id="subscription">
+
+		<h3>Vantaggi Pro</h3>
+		<p>Aggiunta</p>
+
+		<label for="upgrade">Giochi Ps1 +10€</label>
+		<input type="checkbox" name="upgrade" id="upgrade">
+		<label for="upgrade">Giochi Ps2 +10€</label>
+		<input type="checkbox" name="upgrade" id="upgrade">
+		<label for="upgrade">Giochi Ps3 +10€</label>
+		<input type="checkbox" name="upgrade" id="upgrade">
+
+		<h4>Carta di Credito</h4>
+		<label for="credit">Numero Carta</label>
+		<input type="tell" placeholder="xxxx xxxx xxxx xxxx" pattern="[0-9]{15,16}" name="credit" id="credit">
+		<label for="cvc">CVC</label>
+		<input type="tell" placeholder="xxx" name="cvc" id="cvc">
+		<label for="deadline">Scadenza</label>
+		<input type="date" name="deadline" id="deadline">
+		
+		<label for="address">Indirizzo di fatturazione</label>
+		<input type="text" id="address" name="address">
+	</form>
+
+</body>
+
+</html>
